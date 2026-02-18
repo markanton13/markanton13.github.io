@@ -423,6 +423,17 @@ footer h2 {
     transition: 0.3s ease;
 }
 
+.secondary-btn[download] {
+    background: transparent;
+    border: 2px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.secondary-btn[download]:hover {
+    background: #38bdf8;
+    color: black;
+}
+
 .secondary-btn:hover {
     background: var(--primary);
     color: black;
