@@ -47,10 +47,11 @@
 			<h1>Mark Anton</h1>
 				<div class="hero-accent"></div>
 				<p class="hero-tagline">
-					Frontend Developer • Process Trainer • Structured Problem Solver
+					Frontend Developer • Workflow Automation Builder • Technical Trainer
 				</p>
+
 				<p class="hero-sub">
-					I combine web development, GIS knowledge, workflow training, and real-world support experience to build structured and reliable digital solutions.
+					I build structured web systems and internal tools that improve workflows — combining frontend development, GIS training experience, and real-world operations support.
 				</p>
 				
 		<div class="hero-actions">
@@ -69,7 +70,10 @@
 			<span>Advanced Spreadsheets</span>
 			<span>Customer & Tech Support</span>
 			<span>AI Tools & Automation</span>
-		</div>		
+		</div>
+		<div class="hero-summary">
+			Currently building full-stack internal systems (React + Node) while transitioning from enterprise operations and technical training into frontend development.
+		</div>
     </div>
 	</header>
 	
@@ -93,8 +97,9 @@
     <div class="container">
         <h2>About Me</h2>
         <p>
-			I have experience in technical training, customer and technical support, and working with Maps and GIS workflows. I’ve also built advanced spreadsheet systems and regularly use tools like Microsoft Office, Google Workspace, and AI tools to improve efficiency.
-			I’m currently learning frontend development to expand my skills and build structured, reliable web interfaces.
+			I’m a frontend developer transitioning from enterprise operations and technical training, with experience supporting Google Maps workflows, building internal spreadsheet systems, and training new hires.
+		<br><br>
+			I now focus on creating structured web applications and automation tools using modern frontend practices. I enjoy designing clear user flows, building role-based systems, and turning complex processes into simple interfaces.
 		</p>
     </div>
 	</section>
@@ -105,14 +110,14 @@
     <div class="experience-highlights">
 
       <div class="highlight-item">
-        <h4>Process Trainer – Wipro (Google Maps)</h4>
+        <h4>Process Trainer – Google Maps (via Wipro)</h4>
         <p>
           Led onboarding and training for Maps and Roads & Traffic Law workflows while maintaining strict quality standards.
         </p>
       </div>
 
       <div class="highlight-item">
-        <h4>Geospatial Data Operator – Google Maps</h4>
+        <h4>Geospatial Data Operator – Google Maps (via Wipro)</h4>
         <p>
           Analyzed and validated traffic and speed limit data using GIS platforms to improve map accuracy.
         </p>
@@ -146,10 +151,12 @@
 			<span>HTML</span>
 			<span>CSS</span>
 			<span>Responsive Design</span>
-			<span>JavaScript (Basic)</span>
+			<span>JavaScript (ES6+)</span>
 			<span>Git</span>
 			<span>GitHub</span>
 			<span>WordPress (Site Setup & Deployment)</span>
+			<span>REST APIs</span>
+			<span>System Design (Basic)</span>
 		</div>
 	</div>
 
@@ -203,30 +210,81 @@
 
 		<h3>LeaveFlow (Role-Based Leave Management System)</h3>
 			<span class="dev-badge">Active Development</span>
+			
+			<video
+				class="demo-video"
+				controls
+				muted
+				preload="metadata"
+			>
+			
+				<source src="videos/leaveflow-demo.mp4" type="video/mp4">
+			</video>
+			
+			<p class="project-caption">
+				1-minute demo showing employee submission, manager approval, calendar view, and admin user management.
+			</p>
+			
 			<div class="slider">
 			<div class="slides">
-				<img src="images/leaveflow-dashboard.png" class="slide active" alt="Employee dashboard">
-				<img src="images/leaveflow-admin.png" class="slide" alt="Admin dashboard">
-				<img src="images/leaveflow-login.png" class="slide" alt="Login screen">
-				<img src="images/leaveflow-mobile.png" class="slide" alt="Mobile responsive view">
-			</div>
+				<img src="images/leaveflow-01-login.png" 
+				class="slide active" 
+				alt="LeaveFlow login screen with email and password authentication">
+
+				<img src="images/leaveflow-02-employee-dashboard.png" 
+				class="slide" 
+				alt="Employee dashboard showing leave summary cards and leave submission form">
+
+				<img src="images/leaveflow-03-employee-calendar.png" 
+				class="slide" 
+				alt="Employee leave calendar and leave request history table">
+
+				<img src="images/leaveflow-04-manager-table.png" 
+				class="slide" 
+				alt="Manager dashboard with approval and rejection controls">
+
+				<img src="images/leaveflow-05-manager-calendar.png" 
+				class="slide" 
+				alt="Manager calendar view showing team leave schedules">
+
+				<img src="images/leaveflow-06-manage-users.png" 
+				class="slide" 
+				alt="Admin manage users interface with role assignment and status controls">
+		</div>
 
 			<div class="slider-controls">
 			<button class="slide-btn prev">&#10094;</button>
 			<div class="dots"></div>
 			<button class="slide-btn next">&#10095;</button>
 			</div>
+			<p class="project-caption">
+				Full authentication flow, employee and manager dashboards, calendar integration, and role-based user management.
+			</p>
 		</div>
 
 		<p>
-			LeaveFlow is a role-based Leave Management System built with React, Node.js, Express, and MySQL. 
-			It implements authentication, role-based dashboards, leave lifecycle management, and automatic balance tracking.
-		</p>
-		<p>
-			Includes employee cancellation, auto-expiration of pending leaves, manager approval workflow, and automatic leave balance accounting.
+			LeaveFlow is a full-stack role-based Leave Management System built to simulate real enterprise workflows.
+			It digitizes employee leave requests, approval chains, and balance tracking into a structured web platform.
 		</p>
 
+		<p>
+			The system separates Employee, Manager, and Admin roles with dedicated dashboards,
+			implementing approval pipelines, cancellation rules, automated balance deduction,
+			and calendar-based visibility of leave schedules.
+		</p>
+
+		<ul class="project-features">
+			<li>Secure JWT authentication and protected routes</li>
+			<li>Role-based dashboards (Employee / Manager / Admin)</li>
+			<li>Approval and rejection workflow with status tracking</li>
+			<li>Automatic leave balance calculation and deduction</li>
+			<li>Calendar-based team leave visualization</li>
+			<li>User creation, role assignment, and account status control</li>
+		</ul>
+
 		<p><strong>Tech Stack:</strong> React (Vite) • Node.js • Express • MySQL • JWT • Tailwind CSS</p>
+		
+		<p><strong>Impact:</strong> Designed to replace manual leave tracking with a structured web system.</p>
 
 		<span class="private-repo">
 			Private Repository – Code available upon request
