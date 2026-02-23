@@ -714,6 +714,17 @@ textarea:focus {
     margin-bottom: 15px;
 }
 
+.demo-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.demo-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
 
 
 @media (max-width: 768px) {
