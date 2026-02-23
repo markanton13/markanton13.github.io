@@ -701,8 +701,10 @@ textarea:focus {
 
 .demo-video {
     width: 100%;
+    max-width: 720px;   /* controls size */
+    margin: 20px auto;
+    display: block;
     border-radius: 12px;
-    margin-bottom: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 
@@ -711,6 +713,8 @@ textarea:focus {
     color: #555;
     margin-bottom: 15px;
 }
+
+
 
 @media (max-width: 768px) {
 	
